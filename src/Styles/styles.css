@@ -1,0 +1,43 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: flex; /*wajib**/
+    height: 500px;
+    flex-direction: column; /* ke bawah column, ke samping row*/
+    justify-content: space-around; /*center, left, end, space around menyesuaikan, space evenly memberi jarak pas, space between tidak memberi jarak start end, sesuai direction*/
+    align-content: flex-start; /*untuk content*/
+    align-items: center; /*untuk itemsnya center, flex end, flex start*/
+    padding-left: 50px;/*buat hp yang fullscreen*/
+    padding-right: 50px;/*buat hp yang fullscreen*/
+}
+
+.container .box1{
+    flex:1; /*tinggi diatur flex, ngisi yang kosong, bergantung pada flex direction*/
+    width: 120px;
+    background-color: coral;
+}
+
+.container .box2{
+    flex:1; /*tinggi diatur flex, ngisi yang kosong, bergantung pada flex direction*/
+    width: 120px;
+    background-color: darkcyan;
+}
+
+/* .container .box3{
+    width: 120px;
+    height: 120px;
+    background-color: darkgreen;
+} */
+
+
+
+
+
+p{
+    color: cadetblue;
+}
